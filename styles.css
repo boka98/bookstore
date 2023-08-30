@@ -1,0 +1,141 @@
+body {
+    font-family: Helvetica;
+    margin: 0;
+}
+
+.error {
+    color: red;
+}
+
+.header {
+    padding: 50px;
+    text-align: center;
+    background: url('books.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    font-size: 25px;
+}
+
+.form {
+    padding: 50px;
+    text-align: center;
+}
+
+input[type=text],
+input[type=password] {
+    width: 200px;
+    padding: 15px;
+    margin: 10px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+
+}
+
+input[type=submit],
+input[type=button] {
+    width: 200px;
+    background-color: #1e90ff;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover,
+input[type=button]:hover {
+    background-color: #007acc;
+}
+
+.box {
+    background-color: rgba(0, 0, 0, 0.78);
+    padding: 20px;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+.table {
+    margin: auto;
+    margin-top: 30px;
+    border-spacing: 0;
+    border-collapse: collapse;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px 10px rgba(0, 0, 0, 0.13);
+    width: 85%;
+}
+
+.table tr {
+    height: 60px;
+}
+
+.table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.table tr:hover {
+    background-color: #ddd;
+}
+
+.table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+
+}
+
+.table th {
+    padding-left: 10px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #8c8c8c;
+    color: white;
+
+}
+
+.combo {
+    width: 200px;
+    padding: 15px;
+    margin: 3px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+#filter {
+    width: 130px;
+}
+
+#pass {
+    width: 50px;
+    height: 50px;
+}
+
+.show {
+    padding: 30px;
+    text-align: center;
+}
+
+.delete:hover {
+    background-color: #7f1e1a;
+}
+
+.comment {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 800px;
+    height: auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 10px;
+    padding: 30px;
+    margin: 0 auto;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    overflow: hidden;
+    word-break: break-all;
+
+}
